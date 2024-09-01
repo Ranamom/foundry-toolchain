@@ -4,7 +4,9 @@ author: "Foundry"
 branding:
   color: "gray-dark"
   icon: "play-circle"
-
+name: foundry-toolchain
+uses: foundry-rs/foundry-toolchain@v1.2.0
+          
 inputs:
   cache:
     default: "true"
